@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class EvalParameterProperty | ACadSharp </title>
+      <title>Class ParameterValueSet | ACadSharp </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class EvalParameterProperty | ACadSharp ">
+      <meta name="title" content="Class ParameterValueSet | ACadSharp ">
       
-      
+      <meta name="description" content="Represents the value set of a dynamic block parameter, which defines the allowed values for the parameter.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ehtick/ACadSharp/new/master/apiSpec/new?filename=ACadSharp_Objects_Evaluations_EvalParameterProperty.md&amp;value=---%0Auid%3A%20ACadSharp.Objects.Evaluations.EvalParameterProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ehtick/ACadSharp/new/master/apiSpec/new?filename=ACadSharp_Objects_Evaluations_ParameterValueSet.md&amp;value=---%0Auid%3A%20ACadSharp.Objects.Evaluations.ParameterValueSet%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ACadSharp.Objects.Evaluations.EvalParameterProperty">
+        <article data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet">
 
 
 
-  <h1 id="ACadSharp_Objects_Evaluations_EvalParameterProperty" data-uid="ACadSharp.Objects.Evaluations.EvalParameterProperty" class="text-break">
-Class EvalParameterProperty  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Objects/Evaluations/EvalParameterProperty.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ACadSharp_Objects_Evaluations_ParameterValueSet" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet" class="text-break">
+Class ParameterValueSet  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Objects/Evaluations/ParameterValueSet.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,12 @@ Class EvalParameterProperty  <a class="header-action link-secondary" title="View
   <dl><dt>Assembly</dt><dd>ACadSharp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Represents the value set of a dynamic block parameter, which defines the allowed values for the parameter.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EvalParameterProperty</code></pre>
+    <pre><code class="lang-csharp hljs">public class ParameterValueSet</code></pre>
   </div>
 
 
@@ -111,7 +112,7 @@ Class EvalParameterProperty  <a class="header-action link-secondary" title="View
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">EvalParameterProperty</span></div>
+      <div><span class="xref">ParameterValueSet</span></div>
     </dd>
   </dl>
 
@@ -159,18 +160,19 @@ Class EvalParameterProperty  <a class="header-action link-secondary" title="View
 </h2>
 
 
-  <a id="ACadSharp_Objects_Evaluations_EvalParameterProperty_Connections_" data-uid="ACadSharp.Objects.Evaluations.EvalParameterProperty.Connections*"></a>
+  <a id="ACadSharp_Objects_Evaluations_ParameterValueSet_AllowedValues_" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet.AllowedValues*"></a>
 
-  <h3 id="ACadSharp_Objects_Evaluations_EvalParameterProperty_Connections" data-uid="ACadSharp.Objects.Evaluations.EvalParameterProperty.Connections">
-  Connections
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Objects/Evaluations/EvalParameterProperty.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ACadSharp_Objects_Evaluations_ParameterValueSet_AllowedValues" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet.AllowedValues">
+  AllowedValues
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Objects/Evaluations/ParameterValueSet.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Discrete list of allowed values.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;EvalConnection&gt; Connections { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;double&gt; AllowedValues { get; }</code></pre>
   </div>
 
 
@@ -179,7 +181,137 @@ Class EvalParameterProperty  <a class="header-action link-secondary" title="View
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ACadSharp.Objects.Evaluations.EvalConnection.html">EvalConnection</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ACadSharp_Objects_Evaluations_ParameterValueSet_Increment_" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet.Increment*"></a>
+
+  <h3 id="ACadSharp_Objects_Evaluations_ParameterValueSet_Increment" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet.Increment">
+  Increment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Objects/Evaluations/ParameterValueSet.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Distance increment between two allowed values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DxfCodeValue(new int[] { 143 })]
+public double Increment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ACadSharp_Objects_Evaluations_ParameterValueSet_Maximum_" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet.Maximum*"></a>
+
+  <h3 id="ACadSharp_Objects_Evaluations_ParameterValueSet_Maximum" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet.Maximum">
+  Maximum
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Objects/Evaluations/ParameterValueSet.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum allowed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DxfCodeValue(new int[] { 142 })]
+public double Maximum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ACadSharp_Objects_Evaluations_ParameterValueSet_Minimum_" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet.Minimum*"></a>
+
+  <h3 id="ACadSharp_Objects_Evaluations_ParameterValueSet_Minimum" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet.Minimum">
+  Minimum
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Objects/Evaluations/ParameterValueSet.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Minimum allowed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DxfCodeValue(new int[] { 141 })]
+public double Minimum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ACadSharp_Objects_Evaluations_ParameterValueSet_Type_" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet.Type*"></a>
+
+  <h3 id="ACadSharp_Objects_Evaluations_ParameterValueSet_Type" data-uid="ACadSharp.Objects.Evaluations.ParameterValueSet.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Objects/Evaluations/ParameterValueSet.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParameterValueSetType Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ACadSharp.Objects.Evaluations.ParameterValueSetType.html">ParameterValueSetType</a></dt>
     <dd></dd>
   </dl>
 
@@ -194,7 +326,7 @@ Class EvalParameterProperty  <a class="header-action link-secondary" title="View
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Objects/Evaluations/EvalParameterProperty.cs/#L5" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Objects/Evaluations/ParameterValueSet.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 
