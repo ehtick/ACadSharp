@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ProxyGeometryReader | ACadSharp </title>
+      <title>Class DataField | ACadSharp </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ProxyGeometryReader | ACadSharp ">
+      <meta name="title" content="Class DataField | ACadSharp ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ehtick/ACadSharp/new/master/apiSpec/new?filename=ACadSharp_Entities_ProxyGraphics_ProxyGeometryReader.md&amp;value=---%0Auid%3A%20ACadSharp.Entities.ProxyGraphics.ProxyGeometryReader%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ehtick/ACadSharp/new/master/apiSpec/new?filename=ACadSharp_Prototype1b_Segments_DataField.md&amp;value=---%0Auid%3A%20ACadSharp.Prototype1b.Segments.DataField%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ACadSharp.Entities.ProxyGraphics.ProxyGeometryReader">
+        <article data-uid="ACadSharp.Prototype1b.Segments.DataField">
 
 
 
-  <h1 id="ACadSharp_Entities_ProxyGraphics_ProxyGeometryReader" data-uid="ACadSharp.Entities.ProxyGraphics.ProxyGeometryReader" class="text-break">
-Class ProxyGeometryReader  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Entities/ProxyGraphics/ProxyGeometryReader.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ACadSharp_Prototype1b_Segments_DataField" data-uid="ACadSharp.Prototype1b.Segments.DataField" class="text-break">
+Class DataField  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Prototype1b/Segments/DataField.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="ACadSharp.html">ACadSharp</a>.<a class="xref" href="ACadSharp.Entities.html">Entities</a>.<a class="xref" href="ACadSharp.Entities.ProxyGraphics.html">ProxyGraphics</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ACadSharp.html">ACadSharp</a>.<a class="xref" href="ACadSharp.Prototype1b.html">Prototype1b</a>.<a class="xref" href="ACadSharp.Prototype1b.Segments.html">Segments</a></dd></dl>
   <dl><dt>Assembly</dt><dd>ACadSharp.dll</dd></dl>
   </div>
 
@@ -101,7 +101,7 @@ Class ProxyGeometryReader  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ProxyGeometryReader</code></pre>
+    <pre><code class="lang-csharp hljs">public class DataField : IPrototype1bSegment</code></pre>
   </div>
 
 
@@ -111,10 +111,16 @@ Class ProxyGeometryReader  <a class="header-action link-secondary" title="View s
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ProxyGeometryReader</span></div>
+      <div><span class="xref">DataField</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ACadSharp.Prototype1b.Segments.IPrototype1bSegment.html">IPrototype1bSegment</a></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -155,11 +161,77 @@ Class ProxyGeometryReader  <a class="header-action link-secondary" title="View s
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ACadSharp_Prototype1b_Segments_DataField_Entries_" data-uid="ACadSharp.Prototype1b.Segments.DataField.Entries*"></a>
+
+  <h3 id="ACadSharp_Prototype1b_Segments_DataField_Entries" data-uid="ACadSharp.Prototype1b.Segments.DataField.Entries">
+  Entries
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Prototype1b/Segments/DataField.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;DataEntry&gt; Entries { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ACadSharp.Prototype1b.DataEntry.html">DataEntry</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ACadSharp_Prototype1b_Segments_DataField_Header_" data-uid="ACadSharp.Prototype1b.Segments.DataField.Header*"></a>
+
+  <h3 id="ACadSharp_Prototype1b_Segments_DataField_Header" data-uid="ACadSharp.Prototype1b.Segments.DataField.Header">
+  Header
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Prototype1b/Segments/DataField.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SegmentHeader Header { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ACadSharp.Prototype1b.SegmentHeader.html">SegmentHeader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Entities/ProxyGraphics/ProxyGeometryReader.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ehtick/ACadSharp/blob/master/src/ACadSharp/Prototype1b/Segments/DataField.cs/#L5" class="edit-link">Edit this page</a>
         </div>
 
 
